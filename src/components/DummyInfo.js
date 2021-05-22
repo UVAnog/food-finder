@@ -10,211 +10,6 @@ var dummyInfo = [
   {
     business_status: "OPERATIONAL",
     geometry: {
-      location: { lat: 38.031332, lng: -78.483617 },
-      viewport: {
-        northeast: { lat: 38.03275573029151, lng: -78.48251456970848 },
-        southwest: { lat: 38.03005776970851, lng: -78.48521253029149 },
-      },
-    },
-    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-    name: "The Pointe",
-    opening_hours: { open_now: true },
-    photos: [
-      {
-        height: 1534,
-        html_attributions: [
-          '<a href="https://maps.google.com/maps/contrib/105669536282042356192">The Pointe</a>',
-        ],
-        photo_reference:
-          "ATtYBwKDC2y6i5nbGU9vkP25ZC6RYvlxbnzMomlfnXbqfQB4FY-n3p0N2m9zPWtTHoa1lRshHo7ogg0NkaC3cPSiTKC-ThQh5E83BJT61y1vWtfzY_dZQJGzdb6k8j5yuA6Zhw9HLDINKBKmHe5KwNLl2_wD4XQNzQWPhg0phB0fhyaIOgFS",
-        width: 2048,
-      },
-    ],
-    place_id: "ChIJ5yKlCCWGs4kRjpxXNyj2u3Y",
-    plus_code: {
-      compound_code: "2GJ8+GH Charlottesville, VA, USA",
-      global_code: "87C32GJ8+GH",
-    },
-    rating: 4.1,
-    reference: "ChIJ5yKlCCWGs4kRjpxXNyj2u3Y",
-    scope: "GOOGLE",
-    types: ["restaurant", "food", "point_of_interest", "establishment"],
-    user_ratings_total: 51,
-    vicinity: "212 Ridge McIntire Road, Charlottesville",
-    imgURL:
-      "https://lh3.googleusercontent.com/p/AF1QipNAUN4HEv-0mlTYfG1BR2oo7LeE6y7EGXQDt7M0=s1600-h200",
-  },
-  {
-    business_status: "OPERATIONAL",
-    geometry: {
-      location: { lat: 38.0245628, lng: -78.4684906 },
-      viewport: {
-        northeast: { lat: 38.02590283029149, lng: -78.46722191970849 },
-        southwest: { lat: 38.0232048697085, lng: -78.4699198802915 },
-      },
-    },
-    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-    name: "Beer Run",
-    opening_hours: { open_now: true },
-    photos: [
-      {
-        height: 1908,
-        html_attributions: [
-          '<a href="https://maps.google.com/maps/contrib/111710279011964175050">Cody Bowlin</a>',
-        ],
-        photo_reference:
-          "ATtYBwIAyv6Km3Is0LuVnflsAdWpU-bdxJ4jOUBpGq5nxjy6tQL60ruohHV4xhjd_YNISGINB5X_LXUV-S0Ik-z6rjnGwB8VOOeUBfRyfsqlNv2RuX-o5F51FNpylBSA3i85BzQnlCrh2pzcCotpf5cN-hq7FoW_lYJlVw5L9DgJMM4p74IQ",
-        width: 4032,
-      },
-    ],
-    place_id: "ChIJm0JNIZmIs4kR1im0BXXzEGE",
-    plus_code: {
-      compound_code: "2GFJ+RJ Charlottesville, VA, USA",
-      global_code: "87C32GFJ+RJ",
-    },
-    price_level: 2,
-    rating: 4.5,
-    reference: "ChIJm0JNIZmIs4kR1im0BXXzEGE",
-    scope: "GOOGLE",
-    types: [
-      "bar",
-      "liquor_store",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "store",
-      "establishment",
-    ],
-    user_ratings_total: 877,
-    vicinity: "156 Carlton Road Ste 203, Charlottesville",
-    imgURL:
-      "https://lh3.googleusercontent.com/p/AF1QipO4KotOwYs6Tpi57TXzQVDUmcEG3KZWmDgBSSF0=s1600-h200",
-  },
-  {
-    business_status: "OPERATIONAL",
-    geometry: {
-      location: { lat: 38.029338, lng: -78.482687 },
-      viewport: {
-        northeast: { lat: 38.0306869802915, lng: -78.4813380197085 },
-        southwest: { lat: 38.0279890197085, lng: -78.48403598029151 },
-      },
-    },
-    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-    name: "South Street Brewery",
-    opening_hours: { open_now: true },
-    photos: [
-      {
-        height: 1366,
-        html_attributions: [
-          '<a href="https://maps.google.com/maps/contrib/106329300113685657069">South Street Brewery</a>',
-        ],
-        photo_reference:
-          "ATtYBwKeMVK8DxlLdVTqcD-xcfkeCd9n44OPSHjunr2X-I4TiaaXpZxQK8B2QsxJ-SSVQGE1UxuKY_vROLkqIP34we0ck5zuresA4Fn3ZDLBQTYgMwIalqAq08Rzt1n_ReLEhWgl89yb4e5UMNryLDOvBL2qqX933w0lgKMCTI4pW7f8lvYG",
-        width: 2048,
-      },
-    ],
-    place_id: "ChIJ37CxbiSGs4kRCA1x5ntSn7k",
-    plus_code: {
-      compound_code: "2GH8+PW Charlottesville, VA, USA",
-      global_code: "87C32GH8+PW",
-    },
-    price_level: 2,
-    rating: 4.4,
-    reference: "ChIJ37CxbiSGs4kRCA1x5ntSn7k",
-    scope: "GOOGLE",
-    types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
-    user_ratings_total: 408,
-    vicinity: "106 South Street West, Charlottesville",
-    imgURL:
-      "https://lh3.googleusercontent.com/p/AF1QipPzVkHN7vNBBDeiFoz-1oUoSrpoi2eVtMF14ARQ=s1600-h200",
-  },
-  {
-    business_status: "OPERATIONAL",
-    geometry: {
-      location: { lat: 38.0240274, lng: -78.4690459 },
-      viewport: {
-        northeast: { lat: 38.0253424802915, lng: -78.4677817197085 },
-        southwest: { lat: 38.02264451970851, lng: -78.4704796802915 },
-      },
-    },
-    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-    name: "Belmont Pizza & Pub",
-    opening_hours: { open_now: true },
-    photos: [
-      {
-        height: 3024,
-        html_attributions: [
-          '<a href="https://maps.google.com/maps/contrib/113205143587362446447">Barry Wilson</a>',
-        ],
-        photo_reference:
-          "ATtYBwJCOSotjWw2Z-T_LTUx0E5Y8wdC2n8loXvdmubOrKK0K0GxarFmtWkX_d5ttRE_UkRFy1a9fd_oxkrS0D_cchNaOMxpIp7enOlXGN4iVQgDxuPlTPYtw1Yuk7UhSZJmAbbYsTdG1Zo3sNfxTUmCToPWrrq53ByBwUYoRRR0vMEMbb-Q",
-        width: 4032,
-      },
-    ],
-    place_id: "ChIJk0JlLZ-Is4kReSKms8qc6iY",
-    plus_code: {
-      compound_code: "2GFJ+J9 Charlottesville, VA, USA",
-      global_code: "87C32GFJ+J9",
-    },
-    price_level: 1,
-    rating: 4.3,
-    reference: "ChIJk0JlLZ-Is4kReSKms8qc6iY",
-    scope: "GOOGLE",
-    types: [
-      "meal_delivery",
-      "meal_takeaway",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    user_ratings_total: 260,
-    vicinity: "10, 5975, 221 Carlton Road, Charlottesville",
-    imgURL:
-      "https://lh3.googleusercontent.com/p/AF1QipM9MWI-kQR1wlpjRQYB_r-Qqf3FtRC8OEU2WB2k=s1600-h200",
-  },
-  {
-    business_status: "OPERATIONAL",
-    geometry: {
-      location: { lat: 38.0242534, lng: -78.4742108 },
-      viewport: {
-        northeast: { lat: 38.02551328029151, lng: -78.4729082697085 },
-        southwest: { lat: 38.02281531970851, lng: -78.4756062302915 },
-      },
-    },
-    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-    name: "Mas",
-    opening_hours: { open_now: true },
-    photos: [
-      {
-        height: 3480,
-        html_attributions: [
-          '<a href="https://maps.google.com/maps/contrib/114314541776940872047">Gaurav Balakrishnan</a>',
-        ],
-        photo_reference:
-          "ATtYBwItYH5pskxVCguU4TkNP-oLMdMUSOwByNcdQuORFerMutufWoINsBRO_Uu9pts8mNydXt_k5R7ikL930z0_yu2AxScukhQHsMgLJf4wcbFAaiSdHku1a98lT7-t0icqbecUqq9OoCgCi2TknZJPWFZ57XpMiFYfGIU0Wg28SO01fKyC",
-        width: 4640,
-      },
-    ],
-    place_id: "ChIJt8ZVxp-Is4kRTxMBkzXli2w",
-    plus_code: {
-      compound_code: "2GFG+P8 Charlottesville, VA, USA",
-      global_code: "87C32GFG+P8",
-    },
-    price_level: 3,
-    rating: 4.5,
-    reference: "ChIJt8ZVxp-Is4kRTxMBkzXli2w",
-    scope: "GOOGLE",
-    types: ["restaurant", "food", "point_of_interest", "establishment"],
-    user_ratings_total: 429,
-    vicinity: "904 Monticello Road, Charlottesville",
-    imgURL:
-      "https://lh3.googleusercontent.com/p/AF1QipOISDimoLqa9y4NdQweZzrihGP0JNRe5_YjDokC=s1600-h200",
-  },
-  {
-    business_status: "OPERATIONAL",
-    geometry: {
       location: { lat: 38.02989309999999, lng: -78.47547689999999 },
       viewport: {
         northeast: { lat: 38.03116758029149, lng: -78.4741729197085 },
@@ -569,6 +364,81 @@ var dummyInfo = [
   {
     business_status: "OPERATIONAL",
     geometry: {
+      location: { lat: 38.031332, lng: -78.483617 },
+      viewport: {
+        northeast: { lat: 38.03275573029151, lng: -78.48251456970848 },
+        southwest: { lat: 38.03005776970851, lng: -78.48521253029149 },
+      },
+    },
+    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    name: "The Pointe",
+    opening_hours: { open_now: true },
+    photos: [
+      {
+        height: 1534,
+        html_attributions: [
+          '<a href="https://maps.google.com/maps/contrib/105669536282042356192">The Pointe</a>',
+        ],
+        photo_reference:
+          "ATtYBwKDC2y6i5nbGU9vkP25ZC6RYvlxbnzMomlfnXbqfQB4FY-n3p0N2m9zPWtTHoa1lRshHo7ogg0NkaC3cPSiTKC-ThQh5E83BJT61y1vWtfzY_dZQJGzdb6k8j5yuA6Zhw9HLDINKBKmHe5KwNLl2_wD4XQNzQWPhg0phB0fhyaIOgFS",
+        width: 2048,
+      },
+    ],
+    place_id: "ChIJ5yKlCCWGs4kRjpxXNyj2u3Y",
+    plus_code: {
+      compound_code: "2GJ8+GH Charlottesville, VA, USA",
+      global_code: "87C32GJ8+GH",
+    },
+    rating: 4.1,
+    reference: "ChIJ5yKlCCWGs4kRjpxXNyj2u3Y",
+    scope: "GOOGLE",
+    types: ["restaurant", "food", "point_of_interest", "establishment"],
+    user_ratings_total: 51,
+    vicinity: "212 Ridge McIntire Road, Charlottesville",
+    imgURL:
+      "https://lh3.googleusercontent.com/p/AF1QipNAUN4HEv-0mlTYfG1BR2oo7LeE6y7EGXQDt7M0=s1600-h200",
+  },
+  {
+    business_status: "OPERATIONAL",
+    geometry: {
+      location: { lat: 38.0242534, lng: -78.4742108 },
+      viewport: {
+        northeast: { lat: 38.02551328029151, lng: -78.4729082697085 },
+        southwest: { lat: 38.02281531970851, lng: -78.4756062302915 },
+      },
+    },
+    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    name: "Mas",
+    opening_hours: { open_now: true },
+    photos: [
+      {
+        height: 3480,
+        html_attributions: [
+          '<a href="https://maps.google.com/maps/contrib/114314541776940872047">Gaurav Balakrishnan</a>',
+        ],
+        photo_reference:
+          "ATtYBwItYH5pskxVCguU4TkNP-oLMdMUSOwByNcdQuORFerMutufWoINsBRO_Uu9pts8mNydXt_k5R7ikL930z0_yu2AxScukhQHsMgLJf4wcbFAaiSdHku1a98lT7-t0icqbecUqq9OoCgCi2TknZJPWFZ57XpMiFYfGIU0Wg28SO01fKyC",
+        width: 4640,
+      },
+    ],
+    place_id: "ChIJt8ZVxp-Is4kRTxMBkzXli2w",
+    plus_code: {
+      compound_code: "2GFG+P8 Charlottesville, VA, USA",
+      global_code: "87C32GFG+P8",
+    },
+    price_level: 3,
+    rating: 4.5,
+    reference: "ChIJt8ZVxp-Is4kRTxMBkzXli2w",
+    scope: "GOOGLE",
+    types: ["restaurant", "food", "point_of_interest", "establishment"],
+    user_ratings_total: 429,
+    vicinity: "904 Monticello Road, Charlottesville",
+    imgURL:
+      "https://lh3.googleusercontent.com/p/AF1QipOISDimoLqa9y4NdQweZzrihGP0JNRe5_YjDokC=s1600-h200",
+  },
+  {
+    business_status: "OPERATIONAL",
+    geometry: {
       location: { lat: 38.0364351, lng: -78.4620989 },
       viewport: {
         northeast: { lat: 38.0376819802915, lng: -78.4608173197085 },
@@ -813,6 +683,136 @@ var dummyInfo = [
     vicinity: "324 6th Street Southeast, Charlottesville",
     imgURL:
       "https://lh3.googleusercontent.com/p/AF1QipMvTxujZB8AYVUBgjdvOYTkC5k3VfQReh8YcKYq=s1600-h200",
+  },
+  {
+    business_status: "OPERATIONAL",
+    geometry: {
+      location: { lat: 38.0245628, lng: -78.4684906 },
+      viewport: {
+        northeast: { lat: 38.02590283029149, lng: -78.46722191970849 },
+        southwest: { lat: 38.0232048697085, lng: -78.4699198802915 },
+      },
+    },
+    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    name: "Beer Run",
+    opening_hours: { open_now: true },
+    photos: [
+      {
+        height: 1908,
+        html_attributions: [
+          '<a href="https://maps.google.com/maps/contrib/111710279011964175050">Cody Bowlin</a>',
+        ],
+        photo_reference:
+          "ATtYBwIAyv6Km3Is0LuVnflsAdWpU-bdxJ4jOUBpGq5nxjy6tQL60ruohHV4xhjd_YNISGINB5X_LXUV-S0Ik-z6rjnGwB8VOOeUBfRyfsqlNv2RuX-o5F51FNpylBSA3i85BzQnlCrh2pzcCotpf5cN-hq7FoW_lYJlVw5L9DgJMM4p74IQ",
+        width: 4032,
+      },
+    ],
+    place_id: "ChIJm0JNIZmIs4kR1im0BXXzEGE",
+    plus_code: {
+      compound_code: "2GFJ+RJ Charlottesville, VA, USA",
+      global_code: "87C32GFJ+RJ",
+    },
+    price_level: 2,
+    rating: 4.5,
+    reference: "ChIJm0JNIZmIs4kR1im0BXXzEGE",
+    scope: "GOOGLE",
+    types: [
+      "bar",
+      "liquor_store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment",
+    ],
+    user_ratings_total: 877,
+    vicinity: "156 Carlton Road Ste 203, Charlottesville",
+    imgURL:
+      "https://lh3.googleusercontent.com/p/AF1QipO4KotOwYs6Tpi57TXzQVDUmcEG3KZWmDgBSSF0=s1600-h200",
+  },
+  {
+    business_status: "OPERATIONAL",
+    geometry: {
+      location: { lat: 38.029338, lng: -78.482687 },
+      viewport: {
+        northeast: { lat: 38.0306869802915, lng: -78.4813380197085 },
+        southwest: { lat: 38.0279890197085, lng: -78.48403598029151 },
+      },
+    },
+    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+    name: "South Street Brewery",
+    opening_hours: { open_now: true },
+    photos: [
+      {
+        height: 1366,
+        html_attributions: [
+          '<a href="https://maps.google.com/maps/contrib/106329300113685657069">South Street Brewery</a>',
+        ],
+        photo_reference:
+          "ATtYBwKeMVK8DxlLdVTqcD-xcfkeCd9n44OPSHjunr2X-I4TiaaXpZxQK8B2QsxJ-SSVQGE1UxuKY_vROLkqIP34we0ck5zuresA4Fn3ZDLBQTYgMwIalqAq08Rzt1n_ReLEhWgl89yb4e5UMNryLDOvBL2qqX933w0lgKMCTI4pW7f8lvYG",
+        width: 2048,
+      },
+    ],
+    place_id: "ChIJ37CxbiSGs4kRCA1x5ntSn7k",
+    plus_code: {
+      compound_code: "2GH8+PW Charlottesville, VA, USA",
+      global_code: "87C32GH8+PW",
+    },
+    price_level: 2,
+    rating: 4.4,
+    reference: "ChIJ37CxbiSGs4kRCA1x5ntSn7k",
+    scope: "GOOGLE",
+    types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+    user_ratings_total: 408,
+    vicinity: "106 South Street West, Charlottesville",
+    imgURL:
+      "https://lh3.googleusercontent.com/p/AF1QipPzVkHN7vNBBDeiFoz-1oUoSrpoi2eVtMF14ARQ=s1600-h200",
+  },
+  {
+    business_status: "OPERATIONAL",
+    geometry: {
+      location: { lat: 38.0240274, lng: -78.4690459 },
+      viewport: {
+        northeast: { lat: 38.0253424802915, lng: -78.4677817197085 },
+        southwest: { lat: 38.02264451970851, lng: -78.4704796802915 },
+      },
+    },
+    icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    name: "Belmont Pizza & Pub",
+    opening_hours: { open_now: true },
+    photos: [
+      {
+        height: 3024,
+        html_attributions: [
+          '<a href="https://maps.google.com/maps/contrib/113205143587362446447">Barry Wilson</a>',
+        ],
+        photo_reference:
+          "ATtYBwJCOSotjWw2Z-T_LTUx0E5Y8wdC2n8loXvdmubOrKK0K0GxarFmtWkX_d5ttRE_UkRFy1a9fd_oxkrS0D_cchNaOMxpIp7enOlXGN4iVQgDxuPlTPYtw1Yuk7UhSZJmAbbYsTdG1Zo3sNfxTUmCToPWrrq53ByBwUYoRRR0vMEMbb-Q",
+        width: 4032,
+      },
+    ],
+    place_id: "ChIJk0JlLZ-Is4kReSKms8qc6iY",
+    plus_code: {
+      compound_code: "2GFJ+J9 Charlottesville, VA, USA",
+      global_code: "87C32GFJ+J9",
+    },
+    price_level: 1,
+    rating: 4.3,
+    reference: "ChIJk0JlLZ-Is4kReSKms8qc6iY",
+    scope: "GOOGLE",
+    types: [
+      "meal_delivery",
+      "meal_takeaway",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment",
+    ],
+    user_ratings_total: 260,
+    vicinity: "10, 5975, 221 Carlton Road, Charlottesville",
+    imgURL:
+      "https://lh3.googleusercontent.com/p/AF1QipM9MWI-kQR1wlpjRQYB_r-Qqf3FtRC8OEU2WB2k=s1600-h200",
   },
 ];
 
