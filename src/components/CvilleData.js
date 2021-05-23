@@ -2,9 +2,9 @@
 
 s/o https://rajatamil.medium.com/how-to-get-data-from-google-maps-places-api-7eaa40dfd617
 
-latitude and long of waterstreet parking garage 
+used latitude and long of waterstreet parking garage 
 https://www.google.com/maps/place/Water+Street+Parking+Garage/@38.0294361,-78.4833191,17z/data=!3m2!4b1!5s0x89b38626a1901097:0x228f86f6d47d2144!4m5!3m4!1s0x89b3862698cfe9b1:0x3802109c23d6d457!8m2!3d38.0294361!4d-78.4811304
-*/
+and constructed the api request url for charlottesville. I pasted it to chrome and copied the resulting json to this file
 
 var dummyInfo = [
   {
