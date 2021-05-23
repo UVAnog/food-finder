@@ -5,7 +5,10 @@ s/o https://rajatamil.medium.com/how-to-get-data-from-google-maps-places-api-7ea
 used latitude and long of waterstreet parking garage 
 https://www.google.com/maps/place/Water+Street+Parking+Garage/@38.0294361,-78.4833191,17z/data=!3m2!4b1!5s0x89b38626a1901097:0x228f86f6d47d2144!4m5!3m4!1s0x89b3862698cfe9b1:0x3802109c23d6d457!8m2!3d38.0294361!4d-78.4811304
 and constructed the api request url for charlottesville. I pasted it to chrome and copied the resulting json to this file
+the final url: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=38.0356,-78.5034&rankby=distance&type=restaurant&key=AIzaSyBb98m494N57njrw1bGS3LUlwGLTP3fWy0
 
+in the future i would certainly like to do this with the traditonal api call and json response, but since this was
+dummy data, it was nice to be able to visualize and work in list form 
 */
 var dummyInfo = [
   {
