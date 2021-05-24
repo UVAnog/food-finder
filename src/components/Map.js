@@ -18,8 +18,14 @@ class Map {
       this.map.remove();
     }
 
+    
+
     let map = L.map("map").setView([lat, lng], zoom);
     this.map = map;
+
+    
+
+    
     // found from stack overflow on custom map styling
     // https://stackoverflow.com/questions/34072237/how-can-i-use-a-custom-created-mapbox-style-along-with-leaflet
 
@@ -36,6 +42,10 @@ class Map {
       }
     ).addTo(map);
 
+    
+
+    
+
     // Creates a red marker with the coffee icon
     const typeOfPlace = L.AwesomeMarkers.icon({
       icon: "thumbtack",
@@ -51,8 +61,13 @@ class Map {
       fillOpacity: 0.05,
       radius: 3000,
     }).addTo(map);
-  }
+  };
 
+  
+
+
+
+  
   setMarkers(options) {
     // changing the marker logo to the proper type depending on the type of place
     for (let i = 0; i < options.length; i++) {
