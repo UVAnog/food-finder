@@ -6,6 +6,13 @@ import Title from "./components/Title.js"
 function App() {
   const [options, setOptions] = useState([]);
   const [map, setMap] = useState(null);
+  
+  
+  
+
+
+
+  
 
   useEffect(() => {
     let map = new Map();
@@ -20,9 +27,14 @@ function App() {
     }
   }, [map, options]);
 
+  
+
+  
+
 // didn't know you could stack values in ternary operators kinda like switch statements
 //https://stackoverflow.com/questions/12548857/multiple-conditions-in-ternary-conditional-operator
 const content = DummyInfo.map((obj) => {
+  
     const price =
       obj.price_level == undefined
         ? "$ info not available "
@@ -35,13 +47,40 @@ const content = DummyInfo.map((obj) => {
         : obj.price_level === 4
         ? "$$$$"
         : "";
+      
+        const lat = 38.02989309999999;
+
+        const lng = -78.47547689999999;
+        
+        const address = obj.name;
+        
     return (
       <div class="header1">
+      
         <h3>{obj.name}</h3>
 
         <h3>
           {obj.rating} stars, {price}
         </h3>
+
+        <a
+                    className="button"
+                    href={`https://www.google.com/maps/dir/${lat},${lng}/${encodeURIComponent(
+                      address
+                    )}`}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Get Directions
+          </a>
+       
+       
+
+        
+
+        
+
+       
 
         <ul class="places">
           <img src={obj.imgURL} alt="Nearby Places" class="center" />
@@ -49,8 +88,12 @@ const content = DummyInfo.map((obj) => {
         <span style={{ backgroundColor: "white" }}></span>
       </div>
     );
-  });
-  return <div><Title></Title>{content}</div>;
+  }
+  
+  );
+  return <div class="App">
+        
+    <Title></Title> {content}</div>;
 }
 
 export default App;
